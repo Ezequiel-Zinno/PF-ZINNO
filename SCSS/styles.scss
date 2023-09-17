@@ -1,0 +1,121 @@
+* {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-family: "Merriweather", serif;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.nav {
+    img {
+        width: 100px;
+    }
+}
+
+@media (min-width: 990px) {
+    .nav {
+        a {
+            font-size: 25px;
+            font-weight: 900;
+        }
+        ul {
+            gap: 50px;
+        }
+        main {
+          img {
+              height: 25vw;
+          }
+      }   
+    }
+}
+
+.carrusel-imagen {
+  object-fit: cover;
+  height: 350px;
+}
+
+.main__nosotros {
+    background-color: #f7f0e4;
+    grid-area: main__nosotros;
+    display: flex;
+    align-items: center;
+    .main__div {
+        text-align: center;
+        padding: 64px 20px;
+        width: 50%;
+    }
+    .text__main {
+        width: 50%;
+    }
+      
+    .titulo__main {
+        padding-bottom: 20px;
+    }
+  }
+  
+@media (max-width: 995px) {
+    .main__nosotros {
+      flex-direction: column;
+      align-items: center;
+    }
+    .main__div {
+      width: 100% !important;
+    }
+}
+  
+  section.main__nosotros .main__div img {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  @media (min-width: 600px) {
+    section.main__nosotros .main__div img {
+      max-width: 500px;
+    }
+  }
+
+    @media (min-width: 990px) {
+        section.main__nosotros .main__div img {
+          max-width: 600px;
+        }
+}
+  aside.main__nosotros_text {
+    grid-area: main__nosotros_text;
+    background-color: #f7f0e4;
+  }
+  
+  aside.main__nosotros_text p {
+    text-align: center;
+    padding: 10px;
+  }
+
+.link-footer {
+    color: black !important;
+}
+
+
+/*TIENDA*/
+
+
+.titulo-tienda-home {
+  font-size: 30px;
+  height: 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.boton-de-tienda {
+  background-color:#f59871;
+  padding: 10px 30px;
+  color: black;
+  display: inline-block;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.boton-en-home {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
