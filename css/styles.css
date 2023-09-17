@@ -7,7 +7,11 @@
 }
 
 body {
-  background-color: #fcc1a7a1 !important;
+  background-color: #fcc1a7a1;
+}
+
+.body-crema {
+  background-color: #f7f0e4;
 }
 
 .nav img {
@@ -155,6 +159,12 @@ aside.main__nosotros_text p {
 
 /*Consultas*/
 
+.Section-consultas{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+
 .tittle-consultas {
   text-align: center;
   margin-top: 30px;
@@ -167,6 +177,15 @@ aside.main__nosotros_text p {
 
 .mb-15{
   margin-bottom: 400px !important;
+}
+
+.boton-en-consultas {
+  background-color:#f59871;
+  padding: 10px 30px;
+  color: black;
+  display: inline-block;
+  border-radius: 8px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
