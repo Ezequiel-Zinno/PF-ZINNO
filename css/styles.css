@@ -156,10 +156,17 @@ aside.main__nosotros_text p {
 /*Consultas*/
 
 .tittle-consultas {
-  text-align: center
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .texto-consultas{
   width: 50%;
 }
+
+.mb-15{
+  margin-bottom: 400px !important;
+}
+
 /*# sourceMappingURL=styles.css.map */
